@@ -8,8 +8,11 @@ using System.Threading.Tasks;
 namespace newApi.Models
 {
     public class User
-    {
-            [Key]
+  {
+        //this is comment
+
+        [Key]
+
             public int Id { get; set; }
 
             [Required]
